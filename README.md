@@ -18,6 +18,9 @@ https://www.adafruit.com/product/4497 (Shipped from USA)
 
 ## Troubleshooting
 
+### Could Not Open Port
+If you get `serial.serialutil.SerialException: [Errno 2] could not open port` go to `Tools` -> `Port` and select a different port (device) that starts with `/dev/cu.usbserial-…` This willl happen if you are installing TallyArbitor on a number of M5Atoms.
+
 ### macOS
 If you receive an error similar to `ImportError: No module named serial` reference: https://community.m5stack.com/post/11106
 
